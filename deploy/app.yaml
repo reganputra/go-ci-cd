@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:k0wl0n/echo-app-cicd.git
+    repoURL: git@github.com:reganputra/go-ci-cd.git
     targetRevision: main
     path: deploy
   destination:

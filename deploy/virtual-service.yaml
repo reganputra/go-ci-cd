@@ -5,16 +5,16 @@ metadata:
   name: go-echo
 spec:
   hosts:
-    - go-echo.apps.kowlon.my.id
-    - go-echo
+  - go-echo.apps.regan.my.id
+  - go-echo
   gateways:
-    - apps
+  - apps
   http:
-    - match: 
-        - uri:
-            prefix: /  
-      route:
-        - destination:
-            port:
-              number: 80
-            host: go-echo
+  - match:
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        port:
+          number: 80
+        host: go-echo
