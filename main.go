@@ -14,7 +14,7 @@ func main() {
 		if name == "" {
 			name = "echo"
 		}
-		return c.String(http.StatusOK, "Hello, "+name+"! on v3")
+		return c.String(http.StatusOK, "Hello, "+name+"! on v4")
 	})
 
 	e.GET("/v1", func(c echo.Context) error {
