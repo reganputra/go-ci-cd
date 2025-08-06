@@ -7,4 +7,4 @@ namespace: staging
 images:
 - name: kowlon/go-echo
   newName: 723948246008.dkr.ecr.ap-southeast-1.amazonaws.com/go-ci-cd
-  newTag: stg-v.0.0.1
+  newTag: stg-v.0.0.4
